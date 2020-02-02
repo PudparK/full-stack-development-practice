@@ -1,0 +1,10 @@
+#parent-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+#parent-container > div {
+  background: red;
+  height: 120px;
+}
